@@ -1,0 +1,1 @@
+document.addEventListener("submit",o);function o(e){const t=e.target.querySelector(".confirmable");if(t){const s=t.getAttribute("data-confirmation-message");confirm(s||"Estás seguro?")||e.preventDefault()}}
